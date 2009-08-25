@@ -4,9 +4,24 @@ import java.awt.event.*;
 
 import com.apple.dnssd.*;
 
-// Hacked together in 20 Minutes by Patrick Borgeat
-// http://www.cappel-nord.de
-// Found inspiration on http://momo.brauchtman.net/2008/12/zeroconf-made-easy-using-bonjour-for-java/
+/*  Hacked together in 20 Minutes by Patrick Borgeat
+    http://www.cappel-nord.de
+    Found inspiration on http://momo.brauchtman.net/2008/12/zeroconf-made-easy-using-bonjour-for-java/
+    
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+*/
 
 public class AnnounceOSC extends JFrame implements RegisterListener{
 
